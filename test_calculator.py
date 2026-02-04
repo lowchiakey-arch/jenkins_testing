@@ -11,3 +11,7 @@ def test_add_negative_numbers():
 def test_add_zero():
     result = add(10, 0)
     assert result == 10
+
+def test_minus_zero():
+    result = minus(10, 0)
+    assert result == 10
