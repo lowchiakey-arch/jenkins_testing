@@ -1,5 +1,4 @@
-from calculator import add
-
+from calculator import add, minus
 def test_add_positive_numbers():
     result = add(5, 7)
     assert result == 12
